@@ -1,0 +1,66 @@
+:root {
+  --background-main: #242424;
+  --words-a: #FFFFFF;
+  --border: #FFFFFF;
+  --words-b: #9EFF00;
+  --background-components: #595959;
+  --input: #9A9A9A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  font-family: 'Bitter', serif;
+  color: var(--words-a);
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  background-color: var(--background-main);
+}
+h1 {
+  font-size: min(3.5em, 10vw);
+  /* font-size: 3.5em; 64px? */
+  margin-bottom: 25px;
+}
+h2 {
+  font-size: min(3em, 10vw);
+  /* font-size: 3em; 48px */
+}
+p {
+  font-size: min(2em, 7vw);
+  /* font-size: 2em; /32px? */
+  margin-bottom: 3.75rem;
+}
+button {
+  font-size: min(3.5em, 10vw);
+  height: 77px;
+  /* max-width: 260px; */
+  width: 260px; /* 100% */
+  margin-bottom: 3.75rem;
+  background-color: var(--background-components);
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  box-shadow: 5px 5px var(--border);
+  cursor: pointer;
+  transition: .4s;
+}
+button:hover {
+  transform: scale3d(1.1, 1.1, 0.3);
+  box-shadow: none;
+}
+input {
+  background-color: var(--input);
+}
+
+@media (max-width: 295px){
+  button {
+    width: 200px;
+  }
+}

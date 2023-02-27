@@ -1,0 +1,85 @@
+.game {
+    margin-top: 10%;
+}
+.points span, .tip span, .attemptsLeft span {
+    color: var(--words-b);
+}
+.game section:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%; /* 180px */
+    margin: 0 5% 5% 5%;
+    width: auto;
+    flex-wrap: wrap;
+}
+.game section:first-child .wrongLetters {
+    color: red;
+}
+.game section:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%; /* 125px */
+    flex-wrap: wrap;
+}
+.wordContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 5% 60px 5%;
+}
+.letter, .blankSquare {
+    background-color: var(--background-components);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+.letterContainer form {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    margin: 0 5%;
+}
+.letterContainer input {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    width: 77px;
+    height: 77px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    line-height: 1.7;
+    text-align: center;
+}
+@media(max-width: 395px) {
+    .letter, .blankSquare {
+        line-height: 1.4;
+        width: 80px;
+        height: 80px;
+    }
+    .letterContainer form {
+        gap: 30px;
+    }
+}
+@media(min-width: 1075px) {
+    .game {
+        margin-top: 100px;
+    }
+    .game section:first-child {
+        width: 100%;
+        align-items: normal;
+        flex-wrap: nowrap;
+    }
+    .wordContainer {
+        margin-left: 5%; /* Não ta indo */
+        width: 100%;
+    }
+}

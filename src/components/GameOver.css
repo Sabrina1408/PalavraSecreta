@@ -1,0 +1,9 @@
+.gameOver {
+    margin-top: 10%;
+}
+.gameOver span {
+    color: var(--words-b);
+}
+.gameOver button {
+    margin-top: 10%;
+}
