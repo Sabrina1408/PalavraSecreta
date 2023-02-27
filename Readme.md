@@ -1,5 +1,5 @@
-![image](https://user-images.githubusercontent.com/88604193/219100636-ff15e756-f1a1-45aa-b633-71db28ee5fbb.png)
-<h1>👩🏽‍💻 Jogo de Palavra Secreta</h1>
+![image](https://user-images.githubusercontent.com/88604193/221630918-e2db1c64-ea1f-4e42-a87d-73c523c3cf48.png)
+<h1>👩🏽‍💻 Jogo de Palavras Secretas</h1>
 <p>Jogo totalmente funcional usando ReactJs. Feito durante o curso React do Zero a Maestria (c/ hooks, router, API, Projetos)</p>
 <h2>🎯 Links</h2>
 <ul>
