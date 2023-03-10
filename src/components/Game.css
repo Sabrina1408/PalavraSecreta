@@ -59,7 +59,7 @@
     line-height: 1.7;
     text-align: center;
 }
-@media(max-width: 395px) {
+@media(max-width: 440px) {
     .wordContainer {
         margin-bottom: 20px;
     }
