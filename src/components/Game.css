@@ -60,13 +60,24 @@
     text-align: center;
 }
 @media(max-width: 395px) {
+    .wordContainer {
+        margin-bottom: 20px;
+    }
     .letter, .blankSquare {
         line-height: 1.4;
-        width: 80px;
-        height: 80px;
+        width: 55px;
+        height: 55px;
     }
     .letterContainer form {
         gap: 30px;
+    }
+    .letterContainer input {
+        width: 55px;
+        height: 55px;
+    }
+    .gameButton {
+        height: 55px;
+        width: 150px;
     }
 }
 @media(min-width: 1075px) {

@@ -65,7 +65,7 @@ const Game = ({
             value={letter} 
             ref={letterInputRef}
           /> {/* className='guessSquare' */}
-          <button onClick={handleStartGame}>Chutar</button> {/* onClick={verifyLetter} */}
+          <button onClick={handleStartGame} className="gameButton">Chutar</button> {/* onClick={verifyLetter} */}
         </form>
       </section>
     </div>

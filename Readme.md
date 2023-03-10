@@ -10,7 +10,7 @@
     <a href="https://www.udemy.com/share/106eYc3@yd0t0G41WOsywJWv-h50U7mgpJHucWaN88HPHVRgwTo09qlMCEUdDS2GFUfkV3lnzg==/" target="_blank">Link do Curso</a>
   </li>
   <li>
-    <a href="https://sabrinaalves.tk" target="_blank">Meu portfólio</a>
+    <a href="https://sabrinaalvesbrito.com.br" target="_blank">Meu portfólio</a>
   </li>
 </ul>
 <h2>👽 Status - Fazendo</h2>
