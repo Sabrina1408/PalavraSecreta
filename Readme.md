@@ -39,8 +39,4 @@
   <li>🕐 Letras com acento igual letras sem acento.</li>
   <li>✔️ Tirar letras repetidas.</li>
 </ul>
-<h2>🎨 Figma</h2>
-<ul>
-  <li><a href="https://www.figma.com/file/14Cj6g16kIh2IMcIlLK1BN/Child-Labour?node-id=0%3A1&t=vPx88lyEJPD4rCgu-1" target="_blank">Child labour</a></li>
-</ul>
 <!-- ❌ ✔️ 🕐 -->
